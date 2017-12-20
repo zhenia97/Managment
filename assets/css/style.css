@@ -1,0 +1,220 @@
+body
+{
+    margin: 0;
+}
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+th
+{
+    text-align: left;
+    color: #34495e;
+    padding: 15px 10px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+td
+{
+    color: #59626d;
+    word-wrap: break-word;
+    text-align: left;
+    border-top: 1px solid #ebebeb;
+    padding: 5px 10px;
+}
+td button
+{
+    outline: none;
+}
+tbody tr:hover
+{
+    background-color: #f1f0f0;
+}
+#mainBoxHeader
+{
+    background-color: #e6e6e6;
+    padding: 20px 30px 0 30px;
+    margin-bottom: 30px;
+}
+.oneMainBoxHeaderName 
+{
+    display: inline-block;
+}
+#addButtonBox 
+{
+    display: inline-block;
+    float: right;
+}
+.oneMainBoxHeaderName button 
+{
+    border: none;
+    background-color: transparent;
+    color: #34495e;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+.oneMainBoxHeaderName button.active
+{
+    background-color: white;
+    color: #3598db;
+}
+#addButtonBox button
+{
+    padding: 0 15px;
+    border-radius: 5px;
+    background: white;
+    color: #3497db;
+    font-size: 37px;
+    font-weight: 600;
+    border: none;
+    float: right;
+    margin-top: -10px;
+    margin-right: -10px;
+    outline: none;
+    cursor: pointer;
+}
+#groupsTableBox, #studentsTableBox
+{
+    padding: 0 30px;
+    display: none;
+}
+td button
+{
+    background-color: transparent;
+    border: none;
+}
+td button, tr
+{
+    cursor: pointer;
+}
+.editButton i
+{
+    color: green;
+}
+.removeButton i
+{
+    color: red;
+}
+.exchangeButton i
+{
+    color: mediumvioletred;
+}
+emptyButton i
+{
+    color: darkorange;
+}
+.popupBox 
+{
+    max-width: 1024px;
+    height: auto;
+    max-height: 90%;
+    position: relative;
+    margin: 40px auto;
+    padding: 0 20px 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.popupWrapBox
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+}
+.popupOneInputs 
+{
+    margin: 10px 0;
+}
+.popupOneInputs input, .popupOneInputs select, .popupOneEditRowDescription input, .popupOneEditRowDescription select
+{
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 300;
+    max-width: 35em;
+    height: 30px;
+    border: 1px solid #f0f0f0;
+    background: #fcfcfc;
+    width: 350px;
+}
+.popupOneInputs select, .popupOneEditRowDescription select
+{
+    width: 362px;
+    height: 42px;
+    color: rgb(107, 104, 104);
+}
+.popupBoxTitle
+{
+    font-size: 30px;
+    font-weight: 100;
+    padding: 30px 20px 20px 20px;
+    text-shadow: 0 1px 0 #fff;
+    color: #333333;
+    text-align: center;
+}
+.popupFinishBox
+{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.popupFinishBox button 
+{
+    height: 44px;
+    font-size: 21px;
+    background: #448ac9;
+    color: #fff;
+    font-weight: 300;
+    width: 362px;
+    border: 0;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+#editGroup .popupBox, #editStudent .popupBox, #studentInfo .popupBox
+{
+    width: 800px;
+}
+#createStudents .popupBox, #exchangeGroup .popupBox, #deleteGroup .popupBox, #deleteStudent .popupBox, #createGroup .popupBox, #emptyGroup .popupBox
+{
+    width: 500px;
+}
+.popupWrapBox
+{
+    display: none;
+}
+.popupBox .closePopup
+{
+    right: 13px;
+    font-size: 20px;
+    top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.inpurError 
+{
+    border: 1px solid #F44336 !important;
+}
+.popupOneEditRowTerm 
+{
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    color: #34495e;
+    font-weight: 700;
+    font-size: 18px;
+}
+.popupOneEditRowDescription 
+{
+    display: inline-block;
+}
+.popupOneEditRow 
+{
+    padding: 5px 0;
+}
